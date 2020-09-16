@@ -54,7 +54,7 @@ function loadImages(event, dir) {
         let size = filesize(stats.size, { round: 0 })
         images.push({
           filename: files[index],
-          src: `file://${imageFile}`,
+          src: `plp://${imageFile}`,
           size: size,
         })
       }
